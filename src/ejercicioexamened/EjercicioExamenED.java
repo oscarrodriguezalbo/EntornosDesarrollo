@@ -31,10 +31,12 @@ public class EjercicioExamenED {
                 case 1:
                     numero = teclado.nextInt();
                     numero = numero * 3600;
+                    System.out.println("En segundos: "+numero);
                     break;
                 case 2:
                     numero = teclado.nextInt();
                     numero = numero * 1000;
+                    System.out.println("En metros: "+numero);
                     break;
                 case 3:
                     break;
