@@ -26,14 +26,16 @@ public class EjercicioExamenED {
             System.out.println("2. Cambio de kilometros a metros");
             System.out.println("3. Salir");
             opc = teclado.nextInt();
-            System.out.println("Indique el numero: ");
+            
             switch (opc){
                 case 1:
+                    System.out.println("Indique el numero de horas: ");
                     numero = teclado.nextInt();
                     numero = numero * 3600;
                     System.out.println("En segundos: "+numero);
                     break;
                 case 2:
+                    System.out.println("Indique el numero de kilometros: ");
                     numero = teclado.nextInt();
                     numero = numero * 1000;
                     System.out.println("En metros: "+numero);
